@@ -1,6 +1,10 @@
 site_name: Citrix NetScaler SD-WAN WANOP 10.1 API Reference
 site_description: Citrix NetScaler SD-WAN WANOP 10.1 API Reference
-theme_dir: citrix-sdk
+
+theme:
+    name: mkdocs
+    custom_dir: citrix-sdk/
+
 markdown_extensions:
   - admonition
   - codehilite:
